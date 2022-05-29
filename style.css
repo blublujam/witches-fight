@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:600");
+
+*{
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+    z-index: 0;
+}
+::-webkit-scrollbar-track{
+    background-color:rgba(255, 174, 174, 1);
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb{
+    background:rgba(133, 46, 244, 1);
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background:rebeccapurple;
+}
+
+.desktop-2 {
+    margin: 0;
+    padding: 0;
+  align-items: flex-start;
+  background-color: 
+#0e012a;
+  display: flex;
+  height: 925px;
+  width: 1440px
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.overlap-group {
+  height: 966px;
+  margin-top: -55px;
+  position: relative;
+  width: 1440px;
+}
+
+.rectangle-1 {
+  background-color: var(--main);
+  height: 66px;
+  left: 118px;
+  position: absolute;
+  top: 900px;
+  width: 66px;
+}
+
+.name {
+  left: 101px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 109px;
+  color: var(--white);
+    font-family: var(--font-family-open_sans);
+    font-size: var(--font-size-l);
+    font-weight: 600;
+    font-style: normal;
+}
+
+.group-2 {
+  display: flex;
+  height: 54px;
+  left: 1133px;
+  position: absolute;
+  top: 157px;
+  width: 210px;
+}
+
+.shapes {
+  height: 54px;
+  width: 54px;
+}
+
+.shapes-1 {
+  height: 54px;
+  margin-left: 24px;
+  width: 54px;
+}
+
+.rectangle-3 {
+  background-color: var(--highlight);
+  height: 66px;
+  left: 43px;
+  position: absolute;
+  top: 900px;
+  width: 66px;
+}
+
+.rectangle-2 {
+  background-color: var(--black);
+  border: 3px solid 
+#ffafaf;
+  height: 66px;
+  left: 193px;
+  position: absolute;
+  top: 900px;
+  width: 66px;
+}
+
+#raven1-2 {
+  background-image: url("img/raven1.png");
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 303px;
+  left: 151px;
+  position: absolute;
+  top: 468px;
+  width: 303px;
+}
+
+.group-1 {
+  display: flex;
+  height: 54px;
+  left: 97px;
+  position: absolute;
+  top: 157px;
+  width: 210px;
+}
+
+.title {
+  color: var(--white);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  left: 518px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 88px;
+}
+h2{
+    visibility:hidden;
+    color:#0e012a;
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  left: 680px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 300px;
+}
+h3{
+    visibility:visible;
+    color:aliceblue;
+  font-family: var(--font-family-open_sans);
+  font-size: 20px;
+  font-weight: 600;
+  left: 670px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 80px;
+}
+
+.made-by-zhaoyi-luo-judy {
+  color: var(--white);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-m);
+  font-weight: 600;
+  left: 591px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 918px;
+}
+
+.catty {
+  left: 1262px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 109px;
+  color: var(--white);
+    font-family: var(--font-family-open_sans);
+    font-size: var(--font-size-l);
+    font-weight: 600;
+    font-style: normal;
+}
+
+.user-interface-help {
+  cursor: pointer;
+  height: 73px;
+  left: 1331px;
+  position: absolute;
+  top: 886px;
+  width: 73px;
+}
+
+#cat1-1 {
+  background-image: url("img/cat1.png");
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 303px;
+  left: 1027px;
+  position: absolute;
+  top: 468px;
+  width: 304px;
+}
+
+.rectangle-4 {
+  height: 925px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+
+
+:root {
+    --black: 
+  rgba(0, 0, 0, 1);
+    --main: 
+  rgba(133, 46, 244, 1);
+    --highlight: 
+  rgba(255, 174, 174, 1);
+    --white: 
+  rgba(255, 255, 255, 1);
+  
+    --font-size-m: 20px;
+    --font-size-l: 32px;
+    --font-size-xl: 64px;
+  
+    --font-family-open_sans: "Open Sans";
+  }
+
+footer{
+    background-color: #0e012a;
+    height: 10vh;
+    margin: 0;
+    padding: 0;
+  align-items: flex-start;
+  background-color: 
+#0e012a;
+  display: flex;
+  width: 1440px
+}
+
+button{
+    visibility:hidden;
+    background-color: #ffafaf;
+    max-height: 200px;
+    margin: 0px;
+    padding: 0px;
+  position: absolute;
+  border-style: none;
+  border-radius: 20px;
+  z-index: 1;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+button img{
+    width: 200px;
+}
+button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
